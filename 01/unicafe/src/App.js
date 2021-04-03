@@ -6,8 +6,8 @@ const Button = ({ giveFeedback, text }) => (
 
 const StatisticsLine = ({ text, stat, suffix }) => (
       <tr>
-      <th>{text}</th>
-      <th>{stat.toFixed(2)} {suffix}</th>
+        <th>{text}</th>
+        <th>{stat.toFixed(2)} {suffix}</th>
       </tr>
     )
 
